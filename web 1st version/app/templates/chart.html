@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}Boston housing price data display--chart{% endblock %}
+{% block main %}
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">Boston housing price data display--chart</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li class="active">Boston housing price data display--chart</li>
+                </ol>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>Chart display</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div style="width:100%;height: 300px" id="chartmain_scatter"></div>
+                        <div style="width:100%;height: 300px" id="chartmain_line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end page content -->
+{% endblock %}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>{% block title %}{% endblock %}-housing price prediction</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+    <link href="../static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="../static/plugins/iconic/css/material-design-iconic-font.min.css">
+    <!-- bootstrap -->
+	<link href="../static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- style -->
+    <link rel="stylesheet" href="../static/css/pages/extra_pages.css">
+	<!-- favicon -->
+    <link rel="shortcut icon" href="../static/images/favicon.ico" />
+	<!-- icons -->
+    <link href="../static/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="../static/plugins/material/material.min.css">
+	<link rel="stylesheet" href="../static/css/material_style.css">
+	<!-- animation -->
+	<link href="../static/css/pages/animate_page.css" rel="stylesheet">
+	<!-- Template Styles -->
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <link href="../static/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="../static/css/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- dropzone -->
+    <link href="../static/plugins/dropzone/dropzone.css" rel="stylesheet" media="screen">
+    <!-- Date Time item CSS -->
+    <link rel="stylesheet" href="../static/plugins/material-datetimepicker/bootstrap-material-datetimepicker.css" />
+</head>
+<body>
+    <form action="" method="post">
+        <div class="limiter">
+            <div class="container-login100 page-background">
+                <div class="wrap-login100">
+                    <form class="login100-form validate-form">
+                        <span class="login100-form-logo">
+                            <i class="zmdi zmdi-flower"></i>
+                        </span>
+                        <br>
+                        {% for message in get_flashed_messages() %}
+                            <div class="alert alert-warning alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" ><span aria-hidden="true"></span></button>
+                                <p style="color: red"><strong >Warning!</strong> {{message}}</p>
+                            </div>
+                        {% endfor %}
+                        {% block main %}{% endblock %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- start js include path -->
+    <script src="../static/plugins/jquery/jquery.min.js" ></script>
+    <!-- bootstrap -->
+    <script src="../static/plugins/bootstrap/js/bootstrap.min.js" ></script>
+    <script src="../static/js/pages/extra_pages/login.js" ></script>
+    <script src="../static/js/login.js" ></script>
+    <script src="../static/js/zlajax.js" ></script>
+    <script src="../static/plugins/popper/popper.min.js" ></script>
+    <script src="../static/plugins/jquery-blockui/jquery.blockui.min.js" ></script>
+	<script src="../static/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Common js-->
+	<script src="../static/js/app.js" ></script>
+    <script src="../static/js/layout.js" ></script>
+	<script src="../static/js/theme-color.js" ></script>
+	<!-- Material -->
+	<script src="../static/plugins/material/material.min.js"></script>
+    <script src="../static/js/pages/material_select/getmdl-select.js" ></script>
+    <script  src="../static/plugins/material-datetimepicker/moment-with-locales.min.js"></script>
+	<script  src="../static/plugins/material-datetimepicker/bootstrap-material-datetimepicker.js"></script>
+	<script  src="../static/plugins/material-datetimepicker/datetimepicker.js"></script>
+    <!-- dropzone -->
+    <script src="../static/plugins/dropzone/dropzone.js" ></script>
+    <script src="../static/plugins/dropzone/dropzone-call.js" ></script>
+	<!-- animation -->
+	<script src="../static/js/pages/ui/animations.js" ></script>
+    <!-- end js include path -->
+</body>
+</html>

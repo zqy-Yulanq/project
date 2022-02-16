@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}Add record{% endblock %}
+{% block main %}
+<!-- start page content -->
+	<div class="page-content">
+		<div class="page-bar">
+			<div class="page-title-breadcrumb">
+				<div class=" pull-left">
+					<div class="page-title">Add watched TV series record</div>
+				</div>
+				<ol class="breadcrumb page-breadcrumb pull-right">
+					<li>
+						<i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+					</li>
+					<li class="active">Add TV series record</li>
+				</ol>
+			</div>
+		</div>
+		 <div class="row">
+			<div class="col-sm-10">
+				<div class="card-box">
+					<div class="card-head">
+						<header>Add  record</header>
+					</div>
+					<div class="card-body row">
+						<div class="col-lg-6 p-t-20">
+							<div class="row">
+								<label class="col-sm-3 control-label">TV:</label>
+								<div class = "col-sm-3 mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+									  <select name="tv" style="background: transparent;">
+											`{% for t in tv%}
+												 <option  value ="{{t.id}}">{{t.name}}</option>
+											{% endfor %}
+									  </select>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 p-t-20">
+							<div class="row">
+								<label class="col-sm-3 control-label">Score:</label>
+								<input class = "col-sm-3 mdl-textfield__input" type = "text" id = "score" name="score">
+							</div>
+						  </div>
+						</div>
+						<div class="col-lg-6 p-t-20">
+							<div class="row">
+								<label class="col-sm-6 control-label">View time:</label>
+								<input class = "mdl-textfield__input" type = "datetime-local" id = "view_time" name="view_time" style="margin-left:10px">
+							</div>
+						</div>
+
+						  <div class = "mdl-textfield  txt-full-width">
+							  <div class="row">
+								  <label class="col-sm-6 control-label ">&nbsp&nbsp&nbspMy review for the TV series:</label>
+								 <textarea class = "col-sm-9 mdl-textfield__input" rows =  "4" id = "content" name="content" style="margin-left:30px"></textarea>
+							  </div>
+						  </div>
+						 <div class="col-lg-12 p-t-20 text-center">
+							<button id="addrecordbtn" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-pink">Submit</button>
+							<button type="reset" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-default">Reset</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end page content -->
+{% endblock %}

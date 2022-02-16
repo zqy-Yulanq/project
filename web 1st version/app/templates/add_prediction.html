@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% block title %}Add TV series{% endblock %}
+{% block main %}
+<!-- start page content -->
+	<div class="page-content">
+		<div class="page-bar">
+			<div class="page-title-breadcrumb">
+				<div class=" pull-left">
+					<div class="page-title">Add housing price prediction record</div>
+				</div>
+				<ol class="breadcrumb page-breadcrumb pull-right">
+					<li>
+						<i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+					</li>
+					<li class="active">Housing price prediction</li>
+				</ol>
+			</div>
+		</div>
+		 <div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-head">
+						<header>Housing features</header>
+					</div>
+					<div class="card-body row">
+					<form id="uploadForm" method="post" action="/add_prediction/" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "CRIM" name="CRIM">
+                                 <label class = "mdl-textfield__label">CRIM(0-89)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "ZN" name="ZN">
+                                 <label class = "mdl-textfield__label">ZN(0-100)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "INDUS" name="INDUS">
+                                 <label class = "mdl-textfield__label">INDUS(0-28)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "CHAS" name="CHAS">
+                                 <label class = "mdl-textfield__label">CHAS(0 or 1)</label>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "NOX" name="NOX">
+                                 <label class = "mdl-textfield__label">NOX(0.3-0.9)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "RM" name="RM">
+                                 <label class = "mdl-textfield__label">RM(3-9)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "AGE" name="AGE">
+                                 <label class = "mdl-textfield__label">AGE(2-100)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "DIS" name="DIS">
+                                 <label class = "mdl-textfield__label">DIS(1-13)</label>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "RAD" name="RAD">
+                                 <label class = "mdl-textfield__label">RAD(1-24)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "TAX" name="TAX">
+                                 <label class = "mdl-textfield__label">TAX(180-720)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "PTRATIO" name="PTRATIO">
+                                 <label class = "mdl-textfield__label">PTRATIO(12-22)</label>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                 <input class = "mdl-textfield__input" type = "text" id = "B" name="B">
+                                 <label class = "mdl-textfield__label">B(0-397)</label>
+                              </div>
+						    </div>
+                        </div>
+                        <div class="col-lg-3 p-t-20">
+                          <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                             <input class = "mdl-textfield__input" type = "text" id = "LSTAT" name="LSTAT">
+                             <label class = "mdl-textfield__label">LSTAT(1-38)</label>
+                          </div>
+                        </div>
+						 <div class="col-lg-12 p-t-20 text-center">
+							<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-pink">Submit</button>
+							<button type="reset" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-default">Reset</button>
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end page content -->
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Change username{% endblock %}
+{% block main %}
+<!-- start page content -->
+	<div class="page-content">
+		<div class="page-bar">
+			<div class="page-title-breadcrumb">
+				<div class=" pull-left">
+					<div class="page-title">Change username</div>
+				</div>
+				<ol class="breadcrumb page-breadcrumb pull-right">
+					<li>
+						<i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+					</li>
+					<li class="active">Change username</li>
+				</ol>
+			</div>
+		</div>
+		 <div class="row">
+			<div class="col-sm-10">
+				<div class="card-box">
+					<div class="card-head">
+						<header>Change Username</header>
+					</div>
+					<div class="card-body row">
+						<div class="col-lg-6 p-t-20">
+						  <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+							 <input class = "mdl-textfield__input" type = "text" id = "username" name="username">
+							 <label class = "mdl-textfield__label">Username</label>
+						  </div>
+						</div>
+						 <div class="col-lg-12 p-t-20 text-center">
+							<button id="alterusernamebtn" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-pink">Submit</button>
+							<button type="reset" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-default">Reset</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end page content -->
+{% endblock %}

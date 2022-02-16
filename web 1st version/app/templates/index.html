@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block main %}
+<div class="page-content">
+    <section class="dashboard-counts section-padding">
+        <div class="conta iner-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                        <div class="icon-holder">
+                            <i class="material-icons f-left">account_box</i>
+                        </div>
+                        <div class="name"><strong>User number</strong>
+                            <div class="count-number">{{ number1 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                         <div class="icon-holder">
+                            <i class="material-icons f-left">home</i>
+                        </div>
+                        <div class="name"><strong>Housing data</strong>
+                            <div class="count-number">{{ number2 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                          <div class="icon-holder">
+                              <i class="material-icons f-left">visibility</i>
+                          </div>
+                        <div class="name"><strong>Prediction</strong>
+                            <div class="count-number">{{ number3 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Count item widget-->
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                           <div class="icon-holder">
+                               <i class="material-icons f-left">bookmark</i>
+                           </div>
+                        <div class="name"><strong>Plate number</strong>
+                            <div class="count-number">4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>Boston housing feature s information</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> Boston housing features </th>
+                                    <th class="center"> Features information </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeX">
+                                    <td class="center">CRIM</td>
+                                    <td class="center">Crime rate per capita in town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">ZN</td>
+                                    <td class="center">Proportion of residential land for parcels larger than 25,000 square feet</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">INDUS</td>
+                                    <td class="center">Percentage of non-retail business acres per town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">CHAS</td>
+                                    <td class="center">Charles River dummy variable (equal to 1 if the river is around the river;
+                                        otherwise equal to 0)</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">NOX</td>
+                                    <td class="center">Nitric oxide concentration (parts per million)</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">RM</td>
+                                    <td class="center">Average number of rooms per dwelling</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">AGE</td>
+                                    <td class="center">Proportion of owner-occupied housing built before 1940</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">DIS</td>
+                                    <td class="center">Weighted distance to five Boston job centers</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">RAD</td>
+                                    <td class="center">Indicators of Radial Highway Accessibility</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">TAX</td>
+                                    <td class="center">Full value property tax rate per $10,000</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">PTRATIO</td>
+                                    <td class="center">Teacher-student ratio by town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">B</td>
+                                    <td class="center">Calculated as 1000(Bk-0.63)², where Bk is the proportion of
+                                        African Americans by town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">LSTAT</td>
+                                    <td class="center">% of bottom population</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">MEDV</td>
+                                    <td class="center">Median number of owner-occupied dwellings in $1000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Updates Section -->
+{#    <div class="container-fluid">#}
+{#        <div class="col-lg32">#}
+{#            <!-- Daily Feed Widget-->#}
+{#            <div id="daily-feeds" class="card updates daily-feeds">#}
+{#                <div id="feeds-header" class="card-header d-flex justify-content-between align-items-center">#}
+{#                    <h2 class="h5 display"><a data-toggle="collapse" data-parent="#daily-feeds" href="#feeds-box"#}
+{#                                              aria-expanded="true" aria-controls="feeds-box">Boston housing features</a></h2>#}
+{#                    <div class="right-column">#}
+{#                        <div class="badge badge-primary">Fold</div>#}
+{#                        <a data-toggle="collapse" data-parent="#daily-feeds" href="#feeds-box" aria-expanded="true"#}
+{#                           aria-controls="feeds-box"><i class="fa fa-angle-down"></i></a>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div id="feeds-box" role="tabpanel" class="collapse show">#}
+{#                    <div class="feed-box">#}
+{#                        <ul class="feed-elements list-unstyled">#}
+{#                            {% for post in posts %}#}
+{#                            <li class="clearfix">#}
+{#                                <div class="feed d-flex justify-content-between">#}
+{#                                    <div class="feed-body d-flex justify-content-between">#}
+{#                                        <a href="#" class="feed-profile"><img style="width: 100px ;height: 130px" src="../static/uploads/{{post.image}}" alt="TV"></a>#}
+{#                                        <div class="content">#}
+{#                                            <h4><a href="#"style="color: #7abaff; font-size: 20px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTV name:&nbsp&nbsp&nbsp{{#}
+{#                                            post.name }}</a></h4>#}
+{#                                            <h4 style="font-size: 16px ">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTV type:&nbsp&nbsp&nbsp{{post.type }}</h4>#}
+{#                                            <h4 >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTV area:&nbsp&nbsp&nbsp{{ post.area }}</h4>#}
+{#                                            <h4 >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspActor names:&nbsp&nbsp&nbsp&nbsp#}
+{#                                                {% for a in post.actors%}#}
+{#                                                    {{a.name}} &nbsp;#}
+{#                                                {% endfor %}#}
+{#                                            </h4>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </li>#}
+{#                            {% endfor %}#}
+{#                            <div class="feature1">CRIM</div>#}
+{#                            <div class="feature1Info">crime rate per capita in town</div>#}
+{#                        </ul>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+</div>
+{% endblock %}
