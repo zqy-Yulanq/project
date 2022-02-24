@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% block title %}Add TV series{% endblock %}
+{% block main %}
+<!-- start page content -->
+	<div class="page-content">
+		<div class="page-bar">
+			<div class="page-title-breadcrumb">
+				<div class=" pull-left">
+					<div class="page-title">Add housing price prediction record</div>
+				</div>
+				<ol class="breadcrumb page-breadcrumb pull-right">
+					<li>
+						<i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+					</li>
+					<li class="active">Housing price prediction</li>
+				</ol>
+			</div>
+		</div>
+		 <div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-head">
+						<header>Housing features</header>
+					</div>
+					<div class="card-body row">
+					<form id="uploadForm" method="post" action="/lanzhou_add_prediction/" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                                <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                    <div style="margin-left: 20px;font-weight: bold">District: </div>
+                                    <select name="district" style="background: transparent;margin-left: 20px">
+                                        <option value="城关">城关</option>
+                                        <option value="安宁">安宁</option>
+                                        <option value="七里河">七里河</option>
+                                        <option value="榆中">榆中</option>
+                                        <option value="西固">西固</option>
+                                        <option value="永登">永登</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 70px;font-weight: bold">Furnish: </div>
+                                  <select name="furnish" style="background: transparent;margin-left: 70px">
+                                      <option value="毛坯">毛坯</option>
+                                      <option value="简装修">简装修</option>
+                                      <option value="精装修">精装修</option>
+                                      <option value="中装修">中装修</option>
+                                      <option value="豪华装修">豪华装修</option>
+                                  </select>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 20px;font-weight: bold">Facing: </div>
+                                  <select name="facing" style="background: transparent;margin-left: 20px">
+                                      <option value="北">北</option>
+                                      <option value="东">东</option>
+                                      <option value="西">西</option>
+                                      <option value="东西">东西</option>
+                                      <option value="南">南</option>
+                                      <option value="南北">南北</option>
+                                      <option value="西北">西北</option>
+                                      <option value="东北">东北</option>
+                                      <option value="东南">东南</option>
+                                      <option value="西南">西南</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                   <div style="margin-left: 70px;font-weight: bold">Floor: </div>
+                                   <select name="floor" style="background: transparent;margin-left: 70px">
+                                      <option value="低">低</option>
+                                      <option value="中">中</option>
+                                      <option value="高">高</option>
+                                  </select>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 20px;font-weight: bold">Room: </div>
+                                 <input class = "mdl-textfield__input" type = "text" id = "room" name="room" style="margin-left: 20px">
+{#                                 <label class = "mdl-textfield__label">room</label>#}
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 70px;font-weight: bold">Hall: </div>
+                                 <input class = "mdl-textfield__input" type = "text" id = "hall" name="hall" style="margin-left: 70px">
+{#                                 <label class = "mdl-textfield__label">hall</label>#}
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 20px;font-weight: bold">Elevator: </div>
+                                  <select name="elevator" style="background: transparent;margin-left: 20px">
+                                      <option value="无">无</option>
+                                      <option value="有">有</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 70px;font-weight: bold">Build category: </div>
+                                  <select name="bui_category" style="background: transparent;margin-left: 70px">
+                                      <option value="砖混">砖混</option>
+                                      <option value="砖楼">砖楼</option>
+                                      <option value="塔板结合">塔板结合</option>
+                                      <option value="板楼">板楼</option>
+                                      <option value="钢混">钢混</option>
+                                      <option value="平房">平房</option>
+                                      <option value="塔楼">塔楼</option>
+                                  </select>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 20px;font-weight: bold">Property: </div>
+                                  <select name="property" style="background: transparent;margin-left: 20px">
+                                      <option value="房本房">房本房</option>
+                                      <option value="经济适用房">经济适用房</option>
+                                      <option value="房改房">房改房</option>
+                                      <option value="普通商品房">普通商品房</option>
+                                      <option value="个人产权">个人产权</option>
+                                      <option value="商品房">商品房</option>
+                                      <option value="商品房(免税)">商品房(免税)</option>
+                                      <option value="限价房">限价房</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 70px;font-weight: bold">School: </div>
+                                  <select name="school" style="background: transparent;margin-left: 70px">
+                                      <option value="0">0</option>
+                                      <option value="1">1</option>
+                                  </select>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 20px;font-weight: bold">Year: </div>
+                                 <input class = "mdl-textfield__input" type = "text" id = "year" name="year" style="margin-left: 20px">
+{#                                 <label class = "mdl-textfield__label">year</label>#}
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                              <div class = "mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+                                  <div style="margin-left: 70px;font-weight: bold">Area(m^2): </div>
+                                 <input class = "mdl-textfield__input" type = "text" id = "area" name="area" style="margin-left: 70px">
+{#                                 <label class = "mdl-textfield__label">area</label>#}
+                              </div>
+						    </div>
+                        </div>
+						 <div class="col-lg-12 p-t-20 text-center">
+							<button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 m-r-20 btn-pink">Submit</button>
+							<button type="reset" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-default">Reset</button>
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end page content -->
+ {% endblock %}

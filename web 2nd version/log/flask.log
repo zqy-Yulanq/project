@@ -1,0 +1,363 @@
+2020-12-30 22:39:05,021 - INFO - views.py - login - 63 - User: zqy want to login
+2020-12-31 10:16:37,768 - INFO - views.py - register - 124 - User: zqy email 947440142@qq.com registered successfully
+2020-12-31 10:16:46,562 - INFO - views.py - login - 63 - User: zqy want to login
+2020-12-31 10:17:12,120 - INFO - views.py - add_tv - 220 - ID: 1  User: zqy add a TV series ID: 1
+2020-12-31 10:17:34,259 - INFO - views.py - add_record - 274 - ID: 1  User: zqy add a TV watching record of tv ID: 1
+2020-12-31 10:28:13,276 - INFO - views.py - login - 63 - User: zqy want to login
+2020-12-31 10:28:43,242 - INFO - views.py - register - 124 - User: gdl email 947440143@qq.com registered successfully
+2020-12-31 10:28:49,687 - INFO - views.py - login - 63 - User: gdl want to login
+2020-12-31 10:43:45,486 - INFO - views.py - login - 63 - User: zqy want to login
+2020-12-31 13:23:02,236 - INFO - views.py - login - 62 - User: zqy want to login
+2020-12-31 17:34:00,223 - INFO - views.py - register - 123 - User: zff email 947440144@qq.com registered successfully
+2021-01-03 12:14:04,520 - INFO - views.py - login - 64 - User: zqy want to login
+2021-01-03 12:20:51,057 - INFO - views.py - register - 125 - User: zqy email 947440142@qq.com registered successfully
+2021-01-03 12:20:57,232 - INFO - views.py - login - 64 - User: zqy want to login
+2021-01-03 12:21:59,754 - INFO - views.py - add_profile - 180 - ID: 1  User: zqy perfected his portrait
+2021-01-03 12:22:27,906 - INFO - views.py - add_tv - 227 - ID: 1  User: zqy add a TV series ID: 1
+2021-01-03 12:27:02,786 - INFO - views.py - add_record - 266 - ID: 1  User: zqy add a TV watching record of tv ID: 1
+2022-02-09 12:17:40,435 - INFO - views.py - register - 125 - User: zqy email 947440142@qq.com registered successfully
+2022-02-09 12:17:54,294 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-09 22:59:16,583 - INFO - views.py - register - 125 - User: zqy email 947440142@qq.com registered successfully
+2022-02-09 22:59:27,060 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-09 23:04:34,638 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-09 23:05:40,679 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-09 23:07:34,928 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-09 23:10:12,792 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 11:20:20,437 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 11:23:51,031 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 11:50:21,002 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 11:51:45,509 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 13:22:20,727 - INFO - views.py - register - 125 - User: zqy email 947440142@qq.com registered successfully
+2022-02-10 13:22:31,162 - INFO - views.py - login - 64 - User: zqy want to login
+2022-02-10 13:51:03,351 - INFO - views.py - register - 133 - User: zqy email 947440142@qq.com registered successfully
+2022-02-10 13:51:13,981 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 14:02:14,513 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 14:04:42,239 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 14:05:34,101 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 14:13:59,198 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 14:33:35,334 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:20:57,196 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:21:45,053 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:22:47,324 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:23:09,936 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:25:12,824 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:26:28,802 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:27:55,440 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:31:03,649 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:33:19,789 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:36:20,928 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:36:34,732 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:41:10,886 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:42:38,354 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 15:43:45,110 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 16:15:37,315 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 16:23:27,959 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 16:50:54,000 - INFO - views.py - register - 133 - User: zqy email 947440142@qq.com registered successfully
+2022-02-10 16:51:05,959 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 16:51:47,373 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 1
+2022-02-10 17:23:12,727 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:23:26,692 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:23:58,038 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 2
+2022-02-10 17:33:12,692 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:34:13,085 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 3
+2022-02-10 17:36:24,018 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:37:01,787 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 4
+2022-02-10 17:40:11,442 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:40:45,766 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 5
+2022-02-10 17:42:29,353 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-10 17:42:58,751 - INFO - views.py - add_prediction - 233 - ID: 1  User: zqy add a prediction ID: 6
+2022-02-10 18:24:06,235 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:24:20,309 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:26:55,137 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:33:59,219 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:38:06,605 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:42:13,351 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:44:20,607 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:50:06,171 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-10 18:50:39,786 - INFO - views.py - add_prediction - 240 - ID: 1  User: zqy add a prediction ID: 7
+2022-02-11 17:37:59,021 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 17:38:20,019 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 17:44:35,191 - INFO - views.py - add_prediction - 243 - ID: 1  User: zqy add a prediction ID: 8
+2022-02-11 18:10:41,686 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:19:00,090 - INFO - views.py - add_prediction - 243 - ID: 1  User: zqy add a prediction ID: 9
+2022-02-11 18:24:49,157 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:30:08,907 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:30:52,941 - INFO - views.py - add_prediction - 244 - ID: 1  User: zqy add a prediction ID: 10
+2022-02-11 18:33:19,670 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:42:30,117 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:42:45,963 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:43:32,266 - INFO - views.py - add_prediction - 245 - ID: 1  User: zqy add a prediction ID: 11
+2022-02-11 18:44:53,585 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:45:30,433 - INFO - views.py - add_prediction - 247 - ID: 1  User: zqy add a prediction ID: 12
+2022-02-11 18:52:13,963 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:52:46,694 - INFO - views.py - add_prediction - 247 - ID: 1  User: zqy add a prediction ID: 13
+2022-02-11 18:55:05,685 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:55:39,480 - INFO - views.py - add_prediction - 251 - ID: 1  User: zqy add a prediction ID: 14
+2022-02-11 18:59:17,517 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 18:59:54,844 - INFO - views.py - add_prediction - 250 - ID: 1  User: zqy add a prediction ID: 15
+2022-02-11 19:02:47,331 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 19:03:20,250 - INFO - views.py - add_prediction - 250 - ID: 1  User: zqy add a prediction ID: 16
+2022-02-11 20:41:07,956 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 20:41:22,612 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 20:41:55,849 - INFO - views.py - add_prediction - 257 - ID: 1  User: zqy add a prediction ID: 17
+2022-02-11 20:46:05,754 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-11 20:55:06,269 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 20:55:35,761 - INFO - views.py - add_prediction - 262 - ID: 1  User: zqy add a prediction ID: 18
+2022-02-11 20:58:33,284 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 20:59:03,527 - INFO - views.py - add_prediction - 262 - ID: 1  User: zqy add a prediction ID: 19
+2022-02-11 21:07:07,064 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:08:36,639 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:11:57,076 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:21:57,822 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:26:44,635 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:32:05,836 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-11 21:33:00,044 - INFO - views.py - add_prediction - 261 - ID: 1  User: zqy add a prediction ID: 20
+2022-02-12 10:42:44,300 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 10:43:05,585 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 11:08:12,209 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 11:44:50,412 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 11:45:37,721 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 11:46:14,335 - INFO - views.py - add_prediction - 256 - ID: 1  User: zqy add a prediction ID: 21
+2022-02-12 13:46:21,358 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 13:46:43,048 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 13:47:31,030 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 13:48:08,469 - INFO - views.py - add_prediction - 256 - ID: 1  User: zqy add a prediction ID: 22
+2022-02-12 13:50:38,471 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:03:09,405 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:10:05,989 - INFO - views.py - add_prediction - 256 - ID: 1  User: zqy add a prediction ID: 23
+2022-02-12 14:11:33,342 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:14:36,224 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:15:47,084 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:17:21,931 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:17:55,401 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 14:18:28,238 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-12 20:38:57,544 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-12 20:43:05,176 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-12 20:44:24,271 - INFO - views.py - login - 69 - User: zqy want to login
+2022-02-12 20:45:30,511 - INFO - views.py - login - 69 - User: zqy want to login
+2022-02-12 20:51:27,668 - INFO - views.py - add_profile - 185 - ID: 1  User: zqy perfected his portrait
+2022-02-12 21:59:32,209 - INFO - views.py - login - 70 - User: zqy want to login
+2022-02-12 21:59:46,309 - INFO - views.py - login - 70 - User: zqy want to login
+2022-02-12 22:02:04,461 - INFO - views.py - login - 70 - User: zqy want to login
+2022-02-12 22:05:02,957 - INFO - views.py - login - 70 - User: zqy want to login
+2022-02-12 22:31:39,996 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-12 22:40:37,355 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-12 22:42:10,160 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-12 22:59:38,169 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-12 23:00:24,069 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-12 23:18:31,433 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 10:52:17,855 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 10:52:31,944 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 10:53:43,936 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 11:43:14,744 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 11:46:06,107 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:10:49,817 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:11:07,078 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:12:34,936 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:13:41,036 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:18:45,740 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:20:38,390 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:34:41,067 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:35:20,147 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:36:06,794 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:36:37,577 - INFO - views.py - add_prediction - 282 - ID: 1  User: zqy add a prediction ID: 25
+2022-02-13 16:37:54,687 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:39:22,550 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:41:17,487 - INFO - views.py - add_prediction - 281 - ID: 1  User: zqy add a prediction ID: 26
+2022-02-13 16:55:02,377 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-13 16:59:55,446 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:02:07,706 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:02:21,008 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:02:48,007 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:03:43,061 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:07:31,819 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:09:47,415 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:12:28,760 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:16:30,158 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:19:56,002 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:21:52,343 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:23:31,630 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:32:50,610 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:34:32,733 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:45:40,371 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:45:46,639 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:46:38,387 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-16 15:52:45,232 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 14:35:31,732 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 14:35:51,526 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 15:19:09,385 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 15:20:03,230 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 17:57:49,853 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 17:58:12,264 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 18:23:53,975 - INFO - views.py - register - 132 - User: zqy email 947440142@qq.com registered successfully
+2022-02-21 18:24:04,139 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 18:27:37,795 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:30:25,937 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:30:38,439 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:31:01,030 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:40:19,529 - INFO - views.py - register - 132 - User: zqy email 947440142@qq.com registered successfully
+2022-02-21 21:40:30,660 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:47:43,583 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 21:55:34,684 - INFO - views.py - login - 71 - User: zqy want to login
+2022-02-21 22:12:21,579 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:14:16,805 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:14:59,724 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:17:30,172 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:22:31,246 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:33:56,555 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:34:10,257 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:36:08,636 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:37:07,106 - INFO - views.py - add_prediction - 307 - ID: 1  User: zqy add a prediction ID: 1
+2022-02-21 22:38:50,708 - INFO - views.py - login - 72 - User: zqy want to login
+2022-02-21 22:39:37,066 - INFO - views.py - add_prediction - 307 - ID: 1  User: zqy add a prediction ID: 2
+2022-02-21 23:05:15,064 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 09:52:12,004 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 09:52:41,696 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:04:02,204 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:07:14,457 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:07:57,421 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:13:00,461 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:15:55,862 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:18:32,043 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:20:12,504 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:22:04,975 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 10:22:29,388 - INFO - views.py - lanzhou_add_prediction - 395 - ID: 1  User: zqy add a prediction ID: 1
+2022-02-22 11:31:49,373 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 11:32:03,367 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 11:32:30,575 - INFO - views.py - lanzhou_add_prediction - 396 - ID: 1  User: zqy add a prediction ID: 2
+2022-02-22 12:05:54,045 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 12:06:27,402 - INFO - views.py - lanzhou_add_prediction - 397 - ID: 1  User: zqy add a prediction ID: 3
+2022-02-22 17:45:34,328 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 17:45:49,562 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 17:46:56,790 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 17:52:56,162 - INFO - views.py - lanzhou_add_prediction - 397 - ID: 1  User: zqy add a prediction ID: 4
+2022-02-22 22:00:41,746 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 22:00:54,267 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 22:06:29,974 - INFO - views.py - lanzhou_add_prediction - 397 - ID: 1  User: zqy add a prediction ID: 5
+2022-02-22 22:12:35,998 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 22:14:35,885 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 22:15:15,209 - INFO - views.py - lanzhou_add_prediction - 397 - ID: 1  User: zqy add a prediction ID: 6
+2022-02-22 22:38:48,767 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-22 22:39:49,027 - INFO - views.py - lanzhou_add_prediction - 396 - ID: 1  User: zqy add a prediction ID: 7
+2022-02-22 22:42:13,133 - INFO - views.py - lanzhou_add_prediction - 396 - ID: 1  User: zqy add a prediction ID: 8
+2022-02-23 11:53:53,558 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 11:54:13,111 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:08:36,861 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:10:36,108 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:15:00,929 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:20:12,964 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:21:06,349 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:22:37,054 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:24:00,483 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:32:53,062 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:37:40,223 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 12:43:29,852 - INFO - views.py - login - 73 - User: zqy want to login
+2022-02-23 13:20:10,031 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 13:21:31,745 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 13:22:19,793 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 14:56:45,357 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 14:56:59,946 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 14:57:53,712 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 14:58:56,585 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 14:59:45,607 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:00:01,135 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:02:28,095 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:07:16,224 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:07:29,842 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:08:11,427 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:27:37,924 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:30:10,756 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:37:02,450 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:52:44,500 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:53:32,297 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:57:32,904 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:57:38,482 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 15:58:31,215 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 16:00:06,213 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 16:23:01,497 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 16:27:37,595 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:03:42,762 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:03:59,098 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:17:30,684 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:19:47,883 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:20:45,300 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:49:30,956 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:53:35,084 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:56:14,738 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:57:47,386 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 17:59:22,906 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:02:07,058 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:03:12,711 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:03:19,413 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:04:53,453 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:04:53,647 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:04:59,502 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:05:43,669 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:07:42,986 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:08:28,423 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:09:28,608 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:10:17,847 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:12:02,282 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:15:35,327 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:22:51,335 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:53:51,856 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:54:52,982 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 18:58:29,826 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 21:15:00,460 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 21:15:05,532 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 21:40:32,737 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 21:45:54,476 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-23 21:52:10,066 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 10:33:09,292 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 10:37:56,709 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 10:38:11,603 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 10:51:13,441 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 11:00:56,961 - INFO - views.py - login - 74 - User: zqy want to login
+2022-02-24 12:19:04,996 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:21:27,596 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:28:40,124 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:29:11,340 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:29:57,446 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:30:30,602 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:32:57,233 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:36:37,727 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:37:37,747 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:38:18,515 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:38:59,940 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:39:46,165 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:40:32,839 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:40:50,617 - INFO - views.py - lanzhou_add_prediction - 528 - ID: 1  User: zqy add a prediction ID: 9
+2022-02-24 12:41:13,857 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:41:26,016 - INFO - views.py - lanzhou_add_prediction - 528 - ID: 1  User: zqy add a prediction ID: 10
+2022-02-24 12:41:55,796 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 12:42:32,727 - INFO - views.py - add_prediction - 451 - ID: 1  User: zqy add a prediction ID: 3
+2022-02-24 12:48:07,157 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:49:03,906 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:49:04,026 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:49:09,529 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:50:11,002 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:51:03,391 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:55:16,067 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 16:57:45,836 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:08:00,244 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:08:43,566 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:09:28,282 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:10:20,199 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:10:52,445 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:11:24,635 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:12:26,507 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 17:27:29,205 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:21:33,902 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:21:55,298 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:24:35,556 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:25:40,833 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:26:23,910 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:31:07,698 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:32:48,415 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:35:04,204 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:43:59,931 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:45:06,881 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:45:44,868 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 18:52:22,432 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 21:37:08,874 - INFO - views.py - login - 75 - User: zqy want to login
+2022-02-24 21:37:16,567 - INFO - views.py - login - 75 - User: zqy want to login

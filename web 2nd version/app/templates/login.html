@@ -1,0 +1,19 @@
+{% extends 'base2.html' %}
+{% block title %}Login{% endblock %}
+{% block main %}
+    <span class="login100-form-title p-b-34 p-t-27">Log in</span>
+    <div class="wrap-input100 validate-input" data-validate = "Enter telephone number">
+        <input class="input100" type="text" name="telephone" placeholder="Telephone number">
+        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+    </div>
+    <div class="wrap-input100 validate-input" data-validate="Enter password">
+        <input class="input100" type="password" name="password" placeholder="Password">
+        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+    </div>
+    <div class="container-login100-form-btn">
+        <button id="loginbtn" class="login100-form-btn" type="submit">Login</button>
+    </div>
+    <div>
+        <div>&nbsp&nbspHave not registered an account?&nbsp&nbsp<a href="{{ url_for('register')}}" class="register" style="color:white">Register</a></div>
+    </div>
+ {% endblock %}
