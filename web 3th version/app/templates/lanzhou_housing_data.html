@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block title %}Lanzhou housing price data display--list{% endblock %}
+{% block main %}
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">Lanzhou housing price data display--list</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li class="active">Lanzhou housing price data display--list</li>
+                </ol>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>List display</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> id </th>
+                                    <th class="center"> district </th>
+                                    <th class="center"> furnish </th>
+                                    <th class="center"> facing </th>
+                                    <th class="center"> floor </th>
+                                    <th class="center"> room </th>
+                                    <th class="center"> hall </th>
+                                    <th class="center"> elevator </th>
+                                    <th class="center"> bui_category </th>
+                                    <th class="center"> property </th>
+                                    <th class="center"> school </th>
+                                    <th class="center"> year </th>
+                                    <th class="center"> area </th>
+                                    <th class="center"> price </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for i in lh%}
+                                <tr class="odd gradeX">
+                                    <td class="center">{{i[0]}}</td>
+                                    <td class="center">{{i[1]}}</td>
+                                    <td class="center">{{i[2]}}</td>
+                                    <td class="center">{{i[3]}}</td>
+                                    <td class="center">{{i[4]}}</td>
+                                    <td class="center">{{i[5]}}</td>
+                                    <td class="center">{{i[6]}}</td>
+                                    <td class="center">{{i[7]}}</td>
+                                    <td class="center">{{i[8]}}</td>
+                                    <td class="center">{{i[9]}}</td>
+                                    <td class="center">{{i[10]}}</td>
+                                    <td class="center">{{i[11]}}</td>
+                                    <td class="center">{{i[12]}}</td>
+                                    <td class="center">{{i[13]}}</td>
+                                    <td class="center">{{i[14]}}</td>
+                                    <td class="center">
+                                </tr>
+                             {% endfor %}
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end page content -->
+{% endblock %}

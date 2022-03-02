@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block title %}Boston housing price data display--list{% endblock %}
+{% block main %}
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">Boston housing price data display--list</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li class="active">Boston housing price data display--list</li>
+                </ol>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>List display</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> ID </th>
+                                    <th class="center"> CRIM </th>
+                                    <th class="center"> ZN </th>
+                                    <th class="center"> INDUS </th>
+                                    <th class="center"> CHAS </th>
+                                    <th class="center"> NOX </th>
+                                    <th class="center"> RM </th>
+                                    <th class="center"> AGE </th>
+                                    <th class="center"> DIS </th>
+                                    <th class="center"> RAD </th>
+                                    <th class="center"> TAX </th>
+                                    <th class="center"> PTRATIO </th>
+                                    <th class="center"> B </th>
+                                    <th class="center"> LSTAT </th>
+                                    <th class="center"> MEDV </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for i in h%}
+                                <tr class="odd gradeX">
+                                    <td class="center">{{i[0]}}</td>
+                                    <td class="center">{{i[1]}}</td>
+                                    <td class="center">{{i[2]}}</td>
+                                    <td class="center">{{i[3]}}</td>
+                                    <td class="center">{{i[4]}}</td>
+                                    <td class="center">{{i[5]}}</td>
+                                    <td class="center">{{i[6]}}</td>
+                                    <td class="center">{{i[7]}}</td>
+                                    <td class="center">{{i[8]}}</td>
+                                    <td class="center">{{i[9]}}</td>
+                                    <td class="center">{{i[10]}}</td>
+                                    <td class="center">{{i[11]}}</td>
+                                    <td class="center">{{i[12]}}</td>
+                                    <td class="center">{{i[13]}}</td>
+                                    <td class="center">{{i[14]}}</td>
+                                    <td class="center">{{i[15]}}</td>
+                                    <td class="center">
+                                </tr>
+                             {% endfor %}
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end page content -->
+{% endblock %}

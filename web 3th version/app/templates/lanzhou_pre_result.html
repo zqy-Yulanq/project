@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}Prediction record{% endblock %}
+{% block main %}
+<!-- start page content -->
+	<div class="page-content">
+		<div class="page-bar">
+			<div class="page-title-breadcrumb">
+				<div class=" pull-left">
+					<div class="page-title">Housing price prediction result</div>
+				</div>
+				<ol class="breadcrumb page-breadcrumb pull-right">
+					<li>
+						<i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+					</li>
+					<li class="active">Housing price prediction result</li>
+				</ol>
+			</div>
+		</div>
+		 <div class="row">
+			<div class="col-sm-12">
+				<div class="card-box">
+					<div class="card-head">
+						<header>Prediction result</header>
+					</div>
+					<div class="card-body row">
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "district">district:</div>
+                                <div>{{ district }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "furnish">furnish:</div>
+                                <div>{{ furnish }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "facing">facing:</div>
+                                <div>{{ facing }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "floor">floor:</div>
+                                <div>{{ floor }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "room">room:</div>
+                                <div>{{ room }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "hall">hall:</div>
+                                <div>{{ hall }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "elevator">elevator:</div>
+                                <div>{{ elevator }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "bui_category">build category:</div>
+                                <div>{{ bui_category }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "property">property:</div>
+                                <div>{{ property }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "school">school:</div>
+                                <div>{{ school }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "year">year:</div>
+                                <div>{{ year }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                <div id = "area">area:</div>
+                                <div>{{ area }}</div>
+                            </div>
+                            <div class="col-lg-6 p-t-20">
+                                    <div id = "price" style="font-weight: bold; font-size: 12pt">The predicted house price is:</div>
+                                    <div style="font-size: 12pt">{{"%.4f" | format(price) }} ten thousand yuan</div>
+                            </div>
+                    </div>
+                </div>
+			</div>
+         </div>
+    </div>
+<!-- end page content -->
+ {% endblock %}
