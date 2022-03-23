@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block main %}
+<div class="page-content">
+    <section class="dashboard-counts section-padding">
+        <div class="conta iner-fluid">
+            <div class="row">
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                        <div class="icon-holder">
+                            <i class="material-icons f-left">account_box</i>
+                        </div>
+                        <div class="name"><strong>User number</strong>
+                            <div class="count-number">{{ number1 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                         <div class="icon-holder">
+                            <i class="material-icons f-left">home</i>
+                        </div>
+                        <div class="name"><strong>Housing data</strong>
+                            <div class="count-number">{{ number3 }} and {{ number4 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                          <div class="icon-holder">
+                              <i class="material-icons f-left">visibility</i>
+                          </div>
+                        <div class="name"><strong>Prediction</strong>
+                            <div class="count-number">{{ number2 }} and {{ number5 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Count item widget-->
+                <div class="col-xl-2 col-md-4 col-3">
+                    <div class="wrapper count-title d-flex">
+                           <div class="icon-holder">
+                               <i class="material-icons f-left">bookmark</i>
+                           </div>
+                        <div class="name"><strong>Plate number</strong>
+                            <div class="count-number">4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+    <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>Boston housing features information</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> Feature names</th>
+                                    <th class="center"> Features information </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeX">
+                                    <td class="center">CRIM</td>
+                                    <td class="center">Crime rate per capita in town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">ZN</td>
+                                    <td class="center">Proportion of residential land for parcels larger than 25,000 square feet</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">INDUS</td>
+                                    <td class="center">Percentage of non-retail business acres per town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">CHAS</td>
+                                    <td class="center">Charles River dummy variable (equal to 1 if the river is around the river;
+                                        otherwise equal to 0)</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">NOX</td>
+                                    <td class="center">Nitric oxide concentration (parts per million)</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">RM</td>
+                                    <td class="center">Average number of rooms per dwelling</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">AGE</td>
+                                    <td class="center">Proportion of owner-occupied housing built before 1940</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">DIS</td>
+                                    <td class="center">Weighted distance to five Boston job centers</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">RAD</td>
+                                    <td class="center">Indicators of Radial Highway Accessibility</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">TAX</td>
+                                    <td class="center">Full value property tax rate per $10,000</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">PTRATIO</td>
+                                    <td class="center">Teacher-student ratio by town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">B</td>
+                                    <td class="center">Calculated as 1000(Bk-0.63)², where Bk is the proportion of
+                                        African Americans by town</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">LSTAT</td>
+                                    <td class="center">% of bottom population</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">MEDV</td>
+                                    <td class="center">Median number of owner-occupied dwellings in $1000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>Lanzhou housing features information</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> Features names </th>
+                                    <th class="center"> Features information </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeX">
+                                    <td class="center">District</td>
+                                    <td class="center">The district of Lanzhou where second-hand housing is located</td>
+                                </tr>
+                                <tr>
+                                    <td class="center" style="width:113px">Furnish</td>
+                                    <td class="center" style="width:400px">The degree of decoration of second-hand houses, such as rough, simple decoration</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Facing</td>
+                                    <td class="center">The orientation of second-hand houses such as south and north</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Floor</td>
+                                    <td class="center">The floor where the second-hand house is located, such as middle floor, high floor</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Room</td>
+                                    <td class="center">Number of bedrooms in second-hand housing</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Hall</td>
+                                    <td class="center">The number of halls in the second-hand house, such as living room, dining room</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Elevator</td>
+                                    <td class="center">Does the house where the house is located has an elevator</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Build category</td>
+                                    <td class="center">Construction types of second-hand houses such as slab buildings, bungalows</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Property</td>
+                                    <td class="center">The nature of property rights of second-hand housing, such as commercial housing, personal property rights</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">School</td>
+                                    <td class="center">Whether the second-hand house has a school: 0 means no, 1 means yes</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Year</td>
+                                    <td class="center">The construction age of second-hand houses</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Area</td>
+                                    <td class="center">Second-hand housing construction area</td>
+                                </tr>
+                                <tr>
+                                    <td class="center">Price</td>
+                                    <td class="center">The total price of second-hand housing(ten thousand yuan)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block title %}All watching records{% endblock %}
+{% block main %}
+    <div class="page-content">
+        <div class="page-bar">
+            <div class="page-title-breadcrumb">
+                <div class=" pull-left">
+                    <div class="page-title">All housing price prediction records</div>
+                </div>
+                <ol class="breadcrumb page-breadcrumb pull-right">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="{{ url_for('index') }}">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+                    </li>
+                    <li class="active">All housing price prediction records</li>
+                </ol>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="card card-box">
+                    <div class="card-head">
+                        <header>All housing price prediction records</header>
+                        <div class="tools">
+                            <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                            <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                        </div>
+                    </div>
+                    <div class="card-body ">
+                        <div class="table-scrollable">
+                        <table class="table table-hover table-checkable order-column full-width" id="example4">
+                            <thead>
+                                <tr>
+                                    <th class="center"> Id </th>
+                                    <th class="center"> CRIM </th>
+                                    <th class="center"> ZN </th>
+                                    <th class="center"> INDUS </th>
+                                    <th class="center"> CHAS </th>
+                                    <th class="center"> NOX </th>
+                                    <th class="center"> RM </th>
+                                    <th class="center"> AGE </th>
+                                    <th class="center"> DIS </th>
+                                    <th class="center"> RAD </th>
+                                    <th class="center"> TAX </th>
+                                    <th class="center"> PTRATIO </th>
+                                    <th class="center"> B </th>
+                                    <th class="center"> LSTAT </th>
+                                    <th class="center"> MEDV </th>
+                                    <th class="center"> option </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for r in record%}
+                                <tr class="odd gradeX">
+                                    <td class="center">{{r.id}}</td>
+                                    <td class="center">{{r.CRIM}}</td>
+                                    <td class="center">{{r.ZN}}</td>
+                                    <td class="center">{{r.INDUS}}</td>
+                                    <td class="center">{{r.CHAS}}</td>
+                                    <td class="center">{{r.NOX}}</td>
+                                    <td class="center">{{r.RM}}</td>
+                                    <td class="center">{{r.AGE}}</td>
+                                    <td class="center">{{r.DIS}}</td>
+                                    <td class="center">{{r.RAD}}</td>
+                                    <td class="center">{{r.TAX}}</td>
+                                    <td class="center">{{r.PTRATIO}}</td>
+                                    <td class="center">{{r.B}}</td>
+                                    <td class="center">{{r.LSTAT}}</td>
+                                    <td class="center">{{r.MEDV}}</td>
+                                    <td class="center"><a href="/deleteRe/?id={{r.id}}"><i class="material-icons f-left">delete</i></a></td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end page content -->
+ {% endblock %}
