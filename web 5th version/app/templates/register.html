@@ -1,0 +1,58 @@
+{% extends 'base2.html' %}
+{% block title %}Register{% endblock %}
+{% block main %}
+    <span class="login100-form-title p-b-34 p-t-27">Registration</span>
+    <div class="row">
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate = "Enter username">
+                <input class="input100" type="text" name="username" placeholder="Username">
+                <span class="focus-input100" data-placeholder="&#xf207;"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate = "Enter telephone number">
+                <input class="input100" type="text" name="telephone" placeholder="Telephone number">
+                <span class="focus-input100" data-placeholder="&#xf207;"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate = "Enter email address">
+                <input class="input100" type="email" name="email" placeholder="Email">
+                <span class="focus-input100" data-placeholder="&#xf207;"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate = "select gender">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fix-height">
+                  <label>
+                      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      <select name="gender" style="background:#a000ff; color:white">
+                              <option value ="1">Male</option>
+                              <option value ="2">Female</option>
+                              <option value ="3">Secret</option>
+                      </select>
+                      <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                  </label>
+              </div>
+              </div>
+        </div>
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate="Enter password">
+                <input class="input100" type="password" name="password1" placeholder="Password">
+                <span class="focus-input100" data-placeholder="&#xf191;"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 p-t-20">
+            <div class="wrap-input100 validate-input" data-validate="Enter password again">
+                <input class="input100" type="password" name="password2" placeholder="Confirm password">
+                <span class="focus-input100" data-placeholder="&#xf191;"></span>
+            </div>
+        </div>
+        <div class="container-login100-form-btn">
+            <button id="registerbtn" class="login100-form-btn">Sign Up</button>
+        </div>
+        <div>
+            <div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYou already have a membership? &nbsp&nbsp<a href="{{ url_for('login')}}" class="txt1" style="color:white">Login</a></div>
+        </div>
+    </div>
+ {% endblock %}
